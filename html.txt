@@ -1,0 +1,97 @@
+html là ngôn ngữ đánh dấu 
+Hypertext markup language
+html là một ngôn ngữ hoặc một cú pháp mà chúng ta sử dụng để đánh dấu các tài liệu,trang web
+ngôn ngữ html được tạo ra 1989 để giúp mô tả cấu trúc của các bài báo nghiên cứu 
+một số phần tử cuat html
+<i>:in nghiêng
+<b> in đậm;
+<p>:chứa một đoạn văn bản 
+(heding)<h1> tiêu đề của một văn bản 
+<ul> trong ul chứa các li
+ul thì nó sẽ có dấu gạch đầu dòng
+ol thì nó sẽ lưu danh sách theo thứ tự bằng số
+thẻ li có thể lồng thêm thẻ ul ở bên trong của nó 
+thẻ <a> là 1 thẻ đường dẫn liên kết  và nó có thuộc tính href dùng để liên kết
+thẻ <img> không có thẻ đóng nó ko có nội dung chỉ có hình ảnh
+trong thẻ img có src nó giống href nó thể chỉnh sửa ảnh nó có alt để ghi chú thích
+Comnent :dùng để ghi chú thích 
+<div>:là một vùng chứa chung để chứa mọi thứ hoạ để nhón các phần
+<span> là một vùng chứa chung chung khác,nhưng nó là một phần tử nội tuyến 
+vì vậy nó có thể bao bọc điều gì xung quanh bất kỳ loại văn bản hoạc nội dung nào mà chúng ta muốn chọn
+sau này để tạo kiểu bằng 
+<hr> nó sẽ hiện ra 1 dòng kẻ ngang trên trang html
+<br>:ngắn dòng 
+<sup>điều này sẽ tạo ra văn bản được hiển thị bên trên dường sở và đôi khi nhỏ hơn 
+<sub>nó sẽ tạo ra văn bản được hiển thị bên dưới đường cơ sở 
+entity codes
+semantic markup:là một cách viết và cấu trúc HTML của bạn  để nó củng cố ngữ  nghĩa hoặc ý 
+nghĩa của nội dung hơn là hình thức của nó
+main là phần thân của trang
+nav: được cho là đại diện cho bất kỳ thứ gì trên trang cung cấp liên kết điều hướng
+nó dùng để xác định một tập hợp các liên kết 
+section: là dùng để khai báo cho các vị trí trên giao diện của một trang web 
+article:chỉ định nội dung độc lập khép kín 
+aside:định nghĩa nội dung bên ngoài nội sung chính
+nên có nội dung liên quan tới phần nội dung chính
+có thể chứa tất cả các tag định dạng khác
+footer: là phần cuối của một trang 
+<time> nó được lồng trong một thẻ khác 
+<figure>xác định các nội dung liên quan mạch lạc với nhau  như tag,img,code
+nó thường dùng kèm với figcaption để chỉ một chú thích
+(phím tăt>
+main>section>h1
+<table> dùng để tạo bảng
+<table>
+	<thead>
+		<tr>
+	<tbody>
+		<tr>
+			<th>
+		<td>
+<tfoot>
+colspan giúp hợp nhất các phần tử gần nhau của các cột
+rowspan giúp hợp nhất các phần tử gâng nhau của các hàng
+<form> đại diện cho một phần tài liệu chứa các điều khiển tương tác để gửi thông tin 
+nó có thể sử dụng valid(các lớp giả) và invalid để tạo kiểu cho một phần tử dựa trên việc biểu mẫu
+bên trong có hợp lệ bên trong hay không 
+nó bao gồm các thuôvj tính toàn cục
+	accept
+		các laoij nội dung được phân tách bằng dấu phẩy mà máy chủ chấp nhận
+	accept-charset:mã hoá ký tự được phân tách bằng dấu cách mà máy chủ chấp nhận
+	autocapitalize:một thuộc tính không chuẩn được ios sử dụng để kiểm soát cách viết hoa
+		none:không viết hoa
+		sentences:viết hoa chữ cái đầu tiên của mỗi câu
+		Words:Viết hoa chữ cái đầu tiên của mỗi từ
+		Characters:Viết hoa tất cả các ký tự
+	autocomplete:các phần tử đầu vào có thể được trình duyệt tự động hoàn thành các giá trị 
+	của chúng hay ko .autocomplete thuộc tính trên các phần tử biểu mẫu sẽ ghi đè lên ó trên <form>
+những giá trị khả thi:
+off:trình duyệt ko tự động hoàn thành các mục nhập
+on:trình duyệt có thể tự động hoàn thành các mục nhập
+name: tên của biểu mẫu
+rel: kiểm soát chú thích và loại kiên kết mà biểu mẫu tạo ra .chú thích bảo gồm 
+external,nofollow,opener,noopener,noreferrer.các liên kết help, prev, next, searchvà license
+rel là một danh sách được phân tách bằng dấu cách các giá trị này được liết kê
+action:xử lý việc gửi biểu mẫu
+enctype:
+	application/x-www-form-urlencoded: Giá trị mặc định.
+	multipart/form-data: Sử dụng điều này nếu biểu mẫu chứa <input>các phần tử có type=file.
+	text/plain: Hữu ích cho mục đích gỡ lỗi
+Method:Phương thức HTTP để gửi biểu mẫu
+	post: dữ liệu biểu mẫu được gửi dưới dạng phần thân yêu cầu .
+	get:dữ liệu biểu mẫu được nối vào actionURL bằng ?dấu tách
+	dialog: Khi biểu mẫu nằm trong a <dialog>, hãy đóng hộp thoại và đưa ra 
+	sự kiện gửi khi gửi mà không gửi dữ liệu hoặc xóa biểu mẫu
+input:trong forms dùng để nhập dữ liệu vào 
+label:cung cấp cho chúng ta một số văn bản về mặt hình ảnh nó cũng sẽ liên kết với input
+về cơ bản nó phải khớp với bất kỳ id nào trong input
+chỉ một phần tử trên trang phải có 1 id nhất định  
+button:nó là các nút quan trọng của một trang web
+range:điều khiển để nhập một số giá trị chính xác ko quan trọng(như điều khiển thanh trượt)
+phạm vi mặc định 0->100;
+min,max,step, value trong input
+<textarea> xác định khi điều khiển nhập văn bản nhiều dòng
+thường được sử dụng trong một biểu mẫu để thu thập thông tin đầu vào 
+của người dùng như nhận xét hoặc đánh giá.
+Cần có thuộc name tính để tham chiếu dữ liệu biểu mẫu sau khi biểu mẫu được gửi
+<article> chỉ nội dung độc lập khép kín

@@ -1,0 +1,203 @@
+cÃ¡ch viáº¿t css
+nÃ³ Ä‘Æ°á»£c viáº¿t  trá»±c tiáº¿p trong dÃ²ng cÃ¡c pháº§n tá»­ HTMl
+viáº¿t trá»±c tiáº¿p trong trang tÃ i liá»‡u
+táº¡o má»™t tá»‡p riÃªng biá»‡t vÃ  dÃ¹ng link Ä‘á»ƒ gá»i tang css riÃªng Ä‘Ã³
+color:cÃ³ má»™t sá»‘ thuá»™c tÃ­nh nhÆ° Ä‘áº·t mÃ u bÃ¬nh thÆ°á»ng
+hoáº·c mk cÃ³ thá»ƒ sá»­ dá»¥ng báº±ng há»‡ tháº­p lá»¥c phÃ¢n,rgb,hsl,hsla
+backgound nÃ³ lÃ  mÃ u ná»n
+thuá»™c tÃ­nh vÄƒn báº£n:
+text-align:cÄƒn chá»‰nh vá»‹ trÃ­ cá»§a vÄƒn báº£n(center,justify(tá»«ng dÃ²ng Ä‘Æ°á»£c kÃ©o dÃ i Ä‘á» Ä‘á»ƒ cÃ³ chiá»u rá»™ng báº±ng nhau))
+font-weight:Ð? d?m nh?t c?a van b?n(normal(bÃ¬nh thÆ°á»ng),bold(Ä‘áº­m),lighter(nháº¡t hÆ¡n),bolder(Ä‘áº­m hÆ¡n) hoáº¡c dÃ¹ng sá»‘)
+text-decoration:Hi?n th? thanh g?ch chân trong van b?n hoạc xoá dấu gạch chân đó đi
+	-underline,overline,line-through,non
+text-decoration-style:solid,double,dotted,dashed,wavy
+nÃ³ cÃ³ thá»ƒ lá»“ng cae mÃ u sáº¯c vÃ o bÃªn trong 
+line-height:Ä‘Æ°á»£c sá»­ dá»¥ng Ä‘á»ƒ thiáº¿t láº­p chiá»u cao cá»§a dÃ²ng vÄƒn báº£n
+letter-spacing:Ä‘Æ°á»£c sá»­ dá»¥ng Ä‘á»ƒ thiáº¿t láº­p khoáº£ng cÃ¡ch giá»¯a cÃ¡c kÃ½ tá»± vÄƒn báº£n
+text-transform:Ä‘Æ°á»›cuwr dá»¥ng Ä‘á»ƒ Ä‘á»‹nh dáº¡ng viáº¿t hoa,viáº¿t thÆ°á»ng cho cÃ¡c vÄƒn báº£n
+text Indent:ghi rõ th?t d?u dòng c?a dòng d?u tiên trong m?t kh?i van b?n
+word-spacing:Ä‘Æ°á»£c sá»­ dá»¥ng Ä‘á»ƒ xÃ¡c Ä‘á»‹nh khoáº£ng cÃ¡ch giá»¯a cÃ¡c tá»«
+
+
+font-size:kÃ­ch thÆ°á»›c cá»§a phÃ´ng chá»¯
+cÃ³ thá»ƒ dÃ¹ng:em,rem,vh,%,and
+	    px,pt,cm,in,mm
+font-family:dÃ¹ng Ä‘á»ƒ chá»‰ phÃ´ng chá»¯,náº¿u Ä‘Æ°á»£c thiáº¿t láº­p thÃ¬ cÃ¡c phÃ´ng chá»¯ pháº£i liá»‡t kÃª báº±ng dáº¥u pháº©y
+chúng ta có th? s? d?ng d?u ph?y d? k?t h?p nhi?u b? trong 1 danh sách
+chúng tôi s? d?ng thu?c tính ID trong input vào và sau dó k?t h?p for trên label,
+chúng ta có th? s? d?ng id trên b?t k? ph?n t? nào d? cung c?pmootj móc n?i cho css c?a chúng d? tách
+ra m?t ph?n t? duy nh?t 
+id là th? mà chúng ta có th? thêm vào HTML c?a mình nhu m?t thu?c tính,b?t c? lúc nào chúng ta c?n có 
+th? 
+ko nên s? d?ng nó trên m?t trang (# th? hi?n là id)
+class:
+có th? ap d?ng cho nhi?u ph?n t?
+có thể ghép các thuộc tính cùng với nhau
+bộ chọn hậu duệ (khoảng trắng)
+bộ chọn con (>)
+bộ chọn  liền kề (+)
+bộ chọn chung (~)
+
+Bộ chọn thuộc tính(Attribute Selector) CSS so khớp các phần tử dựa trên sự hiện diện hoặc giá trị của một thuộc tính nhất định.
+
+pseudo Classes:lớp giả,là loại công cụ sửa đổi các từ khoá mà chúng thêm vào cuối bộ chọn để chỉ định
+trạng thái cụ thể của các phần tử được chọn đó 
+chúng là công cụ sửa đổi hoặc từ khoá mà chúng tôi thêm vào và lưu ý rằng tất cả chúng đều bắt đàu bằng 
+dấu : 
+đó là điều quan trọng
+hover: hiệu ứng di chuyển chuột
+active được sử dụng để chọn và tạo kiểu cho liên kết đang hoạt động
+checked dùng để chọn tất cả các phần tử được thiết lập thuộc tính checked (trong input)
+nth-of-type:dùng để chọn những phần tử là phần tử con (thuộc một kiểu phần tử nào đó) thứ n của cha nó
+(class giả ký hiệu (:))
+Pseudo Element:phần tử giả(ký hiệu ::after)
+được sử dụng để tạo kiểu cho các phần tử chỉ định
+-dùng để tạo kiểu cho chữ cái hoặc dòng đầu tiên của phần tử
+-chèn nội dung vào trước hoạc sau nội dung
+	+::first-letter phần tử giả được sử dụng để thêm một kiểu đặc biệt cho chữ cái đầu tiên của văn bản
+	+::before phần tử giả có thể được sử dụng để chèn một số nội dung trước nội dung của một phần tử
+	+::After phần tử giả có thể được sử dụng để chèn sau một số nội dung của một 1 phần tử
+	+::Marker:phần tử giả chọn các điểm đánh dấu của các mục danh sách
+	+::selection:pâhfn tử giả với phần tử được người dùng hỏi
+	+firt-line:dòng đầu tiên
+The CSS Cascade:TẦNG CSS
+nếu phần tử thứ 2 trùng tên nhưng khai báo khác thì nó sẽ lấy giá trị của phần tử thứ 2
+Specificity:tính cụ thể 
+công thức của nó
+id>
+là cực kỳ cụ thể và nó sẽ đánh bại bất kỳ số lượng nào bộ chọn lớp nào
+Class >
+khá cụ thể và chúng sẽ đánh bại bất kỳ bộ chọn phần tử nào
+Element >	
+Inline Styles(kiểu nội tuyến) & Important
+kiểu nội tuyến là bên trong cú pháp
+!important là cú pháp qan trọng nhất nó được sử dụng đằng sau 
+inheritance: sự kế thừa
+sử dụng câu lệnh inherit
+padding:phần đệm phần thứ 2
+padding-top
+padding-left
+padding-right
+padding-bottom
+có thể viết gộp thành padding
+border: đường viền xung quanh phần đệm và nội dung(phần thu1)
+border-width:kiểm soát độ dày
+,border-color:kiểm soát màu
+,border-style:điều khiển đường viền đường viền
+border-radius:là bán kính đường viền được bo góc 
+chúng có thể kiểm soát độ dày,kiểu dáng,màu sắc và 
+margin: đường viền.Biên độ trong suốt phần ngoài cùng 
+box-sizing:xác định cách tính chiều rộng và chiều cao của một phần tử,chúng nó bao gồm phần đệm 
+và đường viền hay không
+margin-left,right,top,bottom
+có thể viết tắt trong margin
++ thuộc tính display
+	inline:Hiển thị một phần tử dưới dạng một phần tử nội tuyến(nhuw <span>)
+	Mọi thuộc tính chiều cao và chiều rộng sẽ không có hiệu lực
+	block
+	Hiển thị phần tử dưới dạng phần tử khối (như <p>).
+ 	Nó bắt đầu trên một dòng mới và chiếm toàn bộ chiều rộng
+	inline block
+	Hiển thị một phần tử dưới dạng bộ chứa khối cấp độ nội tuyến.
+ 	Bản thân phần tử được định dạng là phần tử nội tuyến, 
+	nhưng bạn có thể áp dụng các giá trị chiều cao và chiều rộng
+	đơn vị em và rem
+	flex:Hiển thị một phần tử dưới dạng bộ chứa flex cấp khối
+nó sẽ liên qua đến chiều rộng và chiều dài 
+em: là đơn vị tham chiếu tỷ lệ so với phần tử cha trực tiếp chứa nó
+ hoặc chính nó dựa vào giá trị của thuộc tính là font-size
+rem: là đơn vị tham chiếu tỷ lệ so với phần tử gốc của website ở đây là 
+thẻ <html> dựa vào giá trị của thuộc tính font-size
+opacity sẽ làm ảnh hưởng đến tất cả thẻ của nó
+Alpha chỉ ảnh hưởng duy nhất đến thẻ có alpha
+position thuộc tính chỉ định loại phương pháp định vị được sử dụng cho một phần tử
+nó có 5 giá trị 
+static:không được định vị theo bất kỳ cách đặc biệt nào ,nó luôn được định vị theo quy trình bình thường
+của trang
+relative:được định vị so với vị trí bình thường của nó
+filed:được định vị ttuowng đối so với khung nhìn có nghĩa là nó sẽ luôn ở một vị trí cố định
+ngay cả khí được cuộn
+absolute:Nos dược ffinhj vị so với thằng cha gần nhất 
+sticky: được định vị dựa trên vị trí cuộn của người dùng 
+transition:biến đổi
+trong transition có thể chọn màu nên và độ trễ
+transition: backgound-color(màu sắc) 3s(chuyển đổi) 1s(độ trễ)
+transition-timing-function:nó tích hợp thời gian chuyển đổi 
+transition-timing-function:liner
+transition-timing-function:ease
+transition-timing-function:steps(6,end)
+transition-timing-function:cubic-bezier(.29,1.01,1,-0.68)
+transform:cho phép chúng ta làm được rất nhiều điều 
+chúng ta có thể mở rộng quy mô và kéo dài chúng và xiên chúng
+chúng ta có thể dịch chuyển hoặc di chuyển chúng trên trang, lên hoặc xuống và tất cả những việc
+chúng có thể làm nhiều việc cùng một lúc 
+ta có thể xoay một cái gì đó và mở rộng nó 
+Điều liên kết tất cả những điều này lại với nhau là chúng ta đang biến đổi các yếu tố
+Nếu chugns ta dùng photoshop,có những phép biến đổi hoặc biến đổi tương tự mà chúng có thể áp cho 
+1 hình ảnh 
+ một số thuộc tính trong transfrom:
+		-rotate(xoay):có một đơn vị khác nhau (deg,grad,rad,turn)
+thằng rotate là phần tử xoay,xoay truyền thống hoặc xoay xung quang một điểm cố định trên mặt phẳng 2D
+rotate X,Y:là nhữn thứ xoay quang x,y,nơi chugns ta có thể xoay quanh một trong các trụ để ta có thể
+thấy 
+		-Scale:nó thu nhỏ theo cả trực X và Y 
+		ScaleX là chiều cao
+		ScaleY là chiều dài 
+là một hàm biến đổi khác mà chúng ta có thể sử dụng để thay đổi kích thước của một phần tử
+Và có nhiều biến thể khác nhau của thang đo 1 lần nữa,thang do X,Y,Z thang do 3d hoặc chỉ thang do
+transform-origin(nguồn gốc biến đổi):có rất nhiều cách khsc nhau để làm điều đó,nhưng thường thì tôi
+sẽ chỉ sử dụng những từ khoá này như giữa hoặc trên cùng bên trái,dưới bên phải bù trừ bằng pixel
+translate(di chuyển):cho phép chúng tôi lấy một phần tử và di chuyển 1 phần tử và di chuyển nó xung quanh để chung
+có thể di chuyển nó sang bên phải 	
+translateX di chuyển theo chiều ngang
+TránlateY ;di chuyển theo chiều dọc
+Skew:nó sẽ xiên một phần tử trên mặt phẳng a2d 
+và chúng cũng có xiên y và nó chấp nhận các góc 
+box-shadow:đổ bóng
+	/* offset-x|offset y |blur-radius(bk mờ)|spread-radius(bk trải rộng)|color*/
+box-shadow:2px		2px   2px		1px	rgba(0,0,0,0.2);
+background:
+background-color
+background-img
+backgound-size(kích cỡ nền)
+có thể chọn nhiều kích thước bìa khác nhau 
+contain(background-size):nó sẽ thu nhỏ mọi thứ càn lớn càn tốt mà ko cần cắt xén bất cứ thứ gì hoạn kéo
+căng bìa
+Cover(background): nó sẽ chia tỷ lệ hình ảnh lớn nhất có thể mà không kéo dài,nhưng chúng nó sẽ cắt nó
+background-repeat:nó giúp quyết định nó có cần lặp lại hay không
+-các giá trị của nó là reapet(lặp lại)
+			space
+			round
+			no-repeat
+			space repeat
+backgound-position:( vị trí nền trong background-img) top,left,center
+chúng ta có thể viết tắt (background)
+Google Font:
+
+Flexbox:
+là một loạt các thuộc tính đó là hiển thị position
+Chúng tôi muốn các thuộc tính của flexbox trên phần tử này là vùng chứa và bạn đã thấy nó thya đổi cách
+hoạt động
+chúng ta có thể bao gồm tất cả các thuộc tính khác dựa trên màn hình được đặt linh hoạt 
+có 2 trục là main axis,cross Axis
+thuộc tính flex-direction: được gọi là hướng uốn 
+hướng linh hoạt cho phép chúng tôi quyết định hướng trục chính trong vùng chứa của chúng tôi
+gọi tắt là hướng linh hoạt
+flex-direction:row(từ trái sang phải);
+Trục chính của bộ chứa flex được xác định giống với hướng văn bản. Điểm bắt đầu chính và điểm kết thúc chính giống như hướng nội dung.
+	row-reverse(từ phải sang trái);hoạt động giống nhau  row nhưng điểm bắt đầu chính và điểm kết thúc
+chính ngược lại hương nội dung
+	column theo hàng dọc
+trục chính này trong mọi vùng chứa linh hoạt và bất kỳ thứ gì chúng tôi đặt hiển thị để uốn cong trên 
+đó đều có trục chính 
+đó là property đầu tiên của mk 
+justify-content:(xác định các trình duyệt phân phối không gian giữa và xung quanh các mục nội dung dọc theo trục chính của bộ chứa flex
+và trục nội tuyến của bộ chứa lưới)
+	-flex-end:sẽ lấy nội dung và di chuyển nó đến cuối trục chính
+nếu nó đi từ trái sang phải,phần bắt đầu là bên phải,phần cuối là bên phải	
+center:thì dục main axis nó sẽ đẩy về giữa 
+space-between
+sẽ lấy tất cả không gian thừa và phân phối nó giữa các phần tử
+nó sẽ có đường biên ,và nó phần bổ đồng đều giữa các phần tử
+space-around:
+Khoảng trống trước mục đầu tiên và sau mục cuối cùng bằng một nửa khoảng trống giữa mỗi cặp mục liền kề
