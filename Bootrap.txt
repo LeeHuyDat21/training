@@ -1,0 +1,146 @@
+Bootstrap
+là khuôn khổ phổ biến nhất thế giới
+framework
+nó giống như một khuôn khổ vật lý cho một thứ mà bạn đang xây dựng trong thế giới
+bootrap gồm 2 phần chính
+	-nó là tập hợp các thành phần,phần tử khác nhaumaf chúng ta có thể sử dụng và chỉ cần chèn vào ứng dụng
+	một nút trông khá đẹp là các thanh điều hướng được làm sẵn ,nó có lẽ là cái được sử dụng phổ 
+biến nhất 
+	-một phần nữa được gọi là hệ thống lưới,sẽ dành nhiều thời gian cho nó ,giúp chúng ta sắp
+xếp các trang web của mình 
+	Container là một phần không thể thiếu trong Bootstrap.
+Container được sử dụng để thiết lập lề (margin) cho nội dung, giúp nội dung thích ứng với bố cục của bạn.
+ Container chứa phần tử row và row là container của column (còn được gọi là hệ thống lưới).
+ Container để bao gói các phần nội dung trên website hay tạo các hộp nội dung.
+Buttons
+Bootstrap đi kèm với với các loại nút mặc định của riêng nó,các hiểu khác nhau,
+các nút ,mọi thứ chugns ta làm cho một nút đều liên quan đến lớp BTN này,vì vậy chúng ta đã có btn và 
+sau đó là các biến thể khác nhau ,
+Bootstrap đi kèm với màu sắc ngữ nghĩa khác nhau,những nhãn khác nhau này như thành công ,nguy hiểm
+	vd: <button type="button" class="btn btn-primary">Primary</button>
+chúng ta có thể sử dụng thẻ <a>,<input> để tạo ra những gì trông giống như một nút
+	vd:<a class="btn btn-primary" href="#" role="button">Link</a>
+		<button class="btn btn-primary" type="submit">Button</button>
+		<input class="btn btn-primary" type="submit" value="Submit">
+	+outline buttons
+		nó là một nút phác thảo
+	vd:	<button type="button" class="btn btn-outline-primary">Primary</button>
+	+size:
+	dùng để thay đổi kích thước và chúng được trộn và kết hợp
+	vd:<button type="button" class="btn btn-outline-primary btn-lg">Primary</button>
+	+thay đổi hình dạng của khối nút btn-block
+	vd:<button type="button" class="btn btn-secondary btn-sm btn-block">SM button</button>
+	+Active state(trạng thái hoạt động)
+		vd:<a href="#" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Link</a>	
+	+disabled( rạng thái vô hiệu hoá)
+	vd:<button type="button" class="btn btn-secondary btn-lg" disabled>Button</button>
+Bootstrap typography(kiểu chữ) &Utilities(tiện ích)
+ 	+typography:(kiểu chữ)
+		dùng display(display-1)
+	+Lead 
+		nó sẽ làm cho 1 đoạn văn trở nên nổi bật nếu thêm .lead
+	+Blockquotes
+		blockquotes(dấu ngoặc kép là một phần trong html)
+	+mb-0 trong class là dùng để xoá khoảng trắng giữa các dòng trong cùng block
+	+text-center: dùng để căn chỉnh văn bản ra giữa
+	-text-right:dùng để căn chỉnh văn bản sang phải
+	<blockquote class="blockquote text-center">
+            <p class="mb-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+		Blanditiis optio eos adipisci accusantium expedita incidunt repudiandae,</p>
+                <footer class="blockquote-footer">Le Huy Dat</footer>
+        </blockquote>
+	+color:chúng ta có nhiều lớp khác nhau để thay đổi màu của văn bản,dấu gạch ngang và sau đó là 
+		bất kỳ tên màu ngữ nghĩa nào mà chúng tôi đã thấy		
+ 		<h1 class="display-1 text-primary">Heading</h1>
+	-background color
+	chúng ta có thể tuỳ chịn màu nền để ta có thể sử dụng bg- bất kỳ ohaanf tử trong số trúng
+	vd:	<divclass="p-3 mb-2 bg-primary text-white">.bg-primary</div>		
+Badges,Alerts,&Buttom Group
+	+Badges: đó là một thành phần huy hiệu và nó thường được sử dụng để hiển thị số lượng hoặc mọt số loại
+	họ gọi nó là nhãn dán
+	+Buttom groups:Nhóm một loạt các nút với nhau trên một dòng với nhóm nút và tăng sức mạnh cho 
+	chúng bằng js
+		<div class="btn-group" role="group" aria-label="Basic example">
+			  <button type="button" class="btn btn-secondary">Left</button>
+  			  <button type="button" class="btn btn-secondary">Middle</button>
+  			  <button type="button" class="btn btn-secondary">Right</button>
+		</div>
+	+Alerts:
+		một cảnh cáo cung cấp cho một số loại phản hồi cho người dùng của bản
+	vd:<div class="alert alert-primary" role="alert">
+  		This is a primary alert—check it out!
+	</div>
+		+aria-label:nó là nhãn dãn
+  <button aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+            <!-- Điều này nói lên rằng trên trình đọc màn hình ,điều này là ko cần thiết phải hiển thị chút nào vì trình đọc
+            màn hình ko biết đây là gì -->
+        </button>
+<buttom type="button" class="close" data-dismiss="alert" aria-label="Close">
+//data-dismiss="alert":chúng ta cần thêm dữ liệu này,loại bot thuộc tính và đặt nó ở chế độ cảnh báo
+<span aria-hidden="true"></span>
+</buttom>
+Intro to the Bootstrap Grid
+ là hệ thống lưới gồm 12 cột,được xây dựng với flexbox,việc chia nhỏ cột giúp dễ dàng thay đổi
+việc bố trí thành phần trên giao diện website,sao cho phù hợp và tương thích với các màn hình hiển thị 
+trên nhiều thiết bị khác nhau
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
